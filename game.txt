@@ -1,0 +1,35 @@
+Time: 2025-05-05 18:49:58
+Name: felix
+Age: 19
+Gender: male
+Energy: 100
+Location: Location.SPACE
+Knowledge Score: 1
+Questions Answered: 1
+Difficulty: Difficulty.EASY
+Gameplay Log:
+[18:48:34] Welcome to this game, you are a lone electron navigating through space-time.
+[18:48:34] Note: you are allowed to use the internet for the game-related questions
+[18:48:34] Note: as the difficulty increases, if you don't match the difficulty, the internet will be your friend
+[18:48:34] To salvage your self esteem, we all start somewhere...
+[18:48:34] And.. you can always type 'help' for navigating the UI
+[18:48:34] If you at any point close the window, the code will abort and you'll need to reboot
+[18:48:34] What's your name? (Alphabetic characters only)
+[18:49:27] Nice to meet you, felix!
+[18:49:27] How old are you? (Positive numbers only)
+[18:49:28] Got it. Age: 19
+[18:49:28] What's your gender? (male/female/else)
+[18:49:32] Thank you! Gender set to: male
+[18:49:32] 
+Type 'help' for a list of available commands.
+[18:49:32] You'll need to solve physics problems to navigate space!
+[18:49:32] Solve enough problems to discover your ultimate destination!
+[18:49:42] > solve
+[18:49:42] 
+Physics Question:
+[18:49:42] What force keeps planets in orbit around the Sun?
+[18:49:42] Type your answer below and press Enter (or type 'clue' for a hint):
+[18:49:53] > gravity
+[18:49:53] Correct! Gravity is the attractive force between masses that keeps planets in orbit.
+[18:49:58] > save
+-------------------------------------
