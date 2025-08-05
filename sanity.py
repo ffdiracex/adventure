@@ -540,13 +540,7 @@ class Electron:
     
     def is_valid_gender(self, gender):
         return gender.lower() in ['male', 'female', 'else']
-
-#from optphysics import Electron
-
-
-
-
-# ... [Keep all your existing enum and environment definitions exactly the same] ...
+        
 
 class SaveManager:
     """
@@ -830,6 +824,7 @@ class QuantumPhysicsQuestUI:
             
             # Calculator buttons layout...
             with dpg.group(horizontal=True):
+                dpg.add_button(label="6", width=100, height=100, callback=lambda: self.calculate("6"))
                 dpg.add_button(label="7", width=100, height=100, callback=lambda: self.calculate("7"))
                 dpg.add_button(label="8", width=100, height=100, callback=lambda: self.calculate("8"))
                 dpg.add_button(label="9", width=100, height=100, callback=lambda: self.calculate("9"))
@@ -839,11 +834,14 @@ class QuantumPhysicsQuestUI:
 
 
             with dpg.group(horizontal=True):
+                dpg.add_button(label="1", width=100, height=100, callback=lambda: self.calculate("1"))    
+                dpg.add_button(label="2", width=100, height=100, callback=lambda: self.calculate("2"))
+                dpg.add_button(label="3", width=100, height=100, callback=lambda: self.calculate("3"))
                 dpg.add_button(label="4", width=100, height=100, callback=lambda: self.calculate("4"))
                 dpg.add_button(label="5", width=100, height=100, callback=lambda: self.calculate("5"))
-                dpg.add_button(label="6", width=100, height=100, callback=lambda: self.calculate("6"))
                 dpg.add_button(label="*", width=100, height=100, callback=lambda: self.calculate("*"))        
                 dpg.add_button(label="÷", width=100, height=100, callback=lambda: self.calculate("/"))
+            with dpg.group(horizontal=True):
                 dpg.add_button(label="00", width=100, height=100, callback=lambda: self.calculate("00"))
                 dpg.add_button(label=".", width=100, height=100, callback=lambda: self.calculate("."))
                 dpg.add_button(label="(", width=100, height=100, callback=lambda: self.calculate("("))
@@ -1094,4 +1092,5 @@ class QuantumPhysicsQuestUI:
 
 if __name__ == "__main__":
     ui = QuantumPhysicsQuestUI()
+
     ui.run()
